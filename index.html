@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Title</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="color.1.2.js"></script>
+    <script src="hook.js"></script>
+    <script src="linearalgebra-1.3.js"></script>
+    <script src="jquery-linearalgebra-1.0.js"></script>
+    <script src="touch.js"></script>
+    <script src="jquery-flashlight-1.0.js"></script>
+    <script src="jquery-wander.1.1.js"></script>
+	<script type="text/javascript">
+		$(function() {
+            $("#lightswitch").wander({pos:{left:400,top:400}});
+		});
+	</script>
+</head>
+
+<body>
+	<div id="lightswitch"></div>
+    <div id="flashlight">
+        <h2>Shake your mouse to charge the flashlight</h2>
+    </div>
+    <h1 id="victory">You win!</h1>
+</body>
+</html>
+
